@@ -84,7 +84,11 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img className="h-screen object-cover" src={BG_URL} alt="netflix" />
+        <img
+          className="h-screen object-cover md:w-screen"
+          src={BG_URL}
+          alt="netflix"
+        />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
